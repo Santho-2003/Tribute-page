@@ -1,0 +1,106 @@
+html {
+	font-size: 10px;
+}
+
+body {
+	font-family: "PT Sans", calibri, Tahoma, sans-serif;
+	font-size: 1.7rem;
+	line-height: 1.5;
+	text-align: center;
+	color: rgb(46, 38, 145);
+	margin: 0;
+}
+
+#main {
+	margin: 30px 8px;
+	padding: 15px;
+	border-radius: 5px;
+	background:#e1b0cf;
+}
+
+@media (max-width: 460px) {
+	#main {
+		margin: 0;
+	}
+}
+
+h1 {
+	line-height: 1;
+	font-size: 4rem;
+	margin-bottom: 0;
+}
+
+@media (max-width: 460px) {
+	h1 {
+		font-size: 3.5rem;
+		line-height: 0.8;
+	}
+}
+
+p {
+	line-height: 1;
+	font-size: 2rem;
+	color: #000000;
+}
+
+#img-div {
+	border-radius: 5px;
+	padding: 10px;
+	background: rgb(34,193,195);
+	background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(148,190,117,1) 52%, rgba(179,189,96,1) 66%, rgba(186,189,92,1) 69%, rgba(188,189,90,1) 70%, rgba(192,189,87,1) 72%, rgba(253,187,45,1) 100%);;
+	margin: 0;
+}
+#image {
+	width: 100%;
+	height: auto;
+	max-width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+figcaption {
+	color: black;
+}
+
+#img-caption {
+	margin: 15px 0 5px 0;
+}
+
+@media (max-width: 460px) {
+	#img-caption {
+		font-size: 1.2rem;
+	}
+}
+
+h3 {
+	line-height: 1.6;
+	font-size: 1.5em;
+	margin-bottom: 0;
+}
+
+#headline {
+	text-align: center;
+}
+
+ul {
+	color: black;
+	max-width: 550px;
+	margin: 0 auto 50px auto;
+	text-align: left;
+	line-height: 1;
+}
+
+li {
+	margin: 16px 0;
+}
+
+h5 {
+	color: black;
+}
+a {
+	color: #477ca7;
+}
+
+a:visited {
+	color: #74638f;
+}
